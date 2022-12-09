@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/full_size_font"
+          android:orderInCategory="100"
+          android:titleCondensed="Persist"
+          android:title="@string/fullsizeFont"
+          android:icon="@drawable/ic_settings_overscan_black_24dp"
+          android:checkable="true" />
+    <item android:id="@+id/dark_theme"
+        android:orderInCategory="101"
+        android:titleCondensed="Persist"
+        android:title="@string/dark_theme"
+        android:icon="@drawable/ic_settings_overscan_black_24dp"
+        android:checkable="true" />
+    <item android:id="@+id/bold_font"
+        android:orderInCategory="102"
+        android:titleCondensed="Persist"
+        android:title="@string/bold_font"
+        android:icon="@drawable/ic_settings_overscan_black_24dp"
+        android:checkable="true" />
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/font_vantaplain"
+            android:orderInCategory="103"
+            android:titleCondensed="Persist"
+            android:title="@string/font_vantaplain"
+            android:icon="@drawable/ic_settings_overscan_black_24dp"/>
+        <item android:id="@+id/font_expansiva"
+            android:orderInCategory="104"
+            android:titleCondensed="Persist"
+            android:title="@string/font_expansiva"
+            android:icon="@drawable/ic_settings_overscan_black_24dp" />
+        <item android:id="@+id/font_default"
+            android:orderInCategory="105"
+            android:titleCondensed="Persist"
+            android:title="@string/font_default"
+            android:icon="@drawable/ic_settings_overscan_black_24dp" />
+    </group>
+
+    <item android:id="@+id/mysearch"
+        android:orderInCategory="106"
+        android:titleCondensed="Persist"
+        android:title="@string/mysearch"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="107"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

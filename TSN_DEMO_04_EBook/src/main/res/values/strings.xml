@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">ZSA15_LAB4</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="name_program">Пример eBook, 2022</string>
+
+    <string name="resource_directory">file:///android_asset/HTML/</string>
+
+    <string name="action_settings">Выход</string>
+    <string name="view">Перейти к чтению…</string>
+    <string name="fullsizeFont">Большой шрифт</string>
+    <string name="dark_theme">Темная тема</string>
+    <string name="bold_font">Жирный шрифт</string>
+    <string name="font_vantaplain">Vantaplain шрифт</string>
+    <string name="font_expansiva">Expansiva шрифт</string>
+    <string name="font_default">Шрифт по умолчанию</string>
+    <string name="bonus">Бонус</string>
+    <string name="lit">Литература</string>
+    <string name="autor">Зайцев С.А.</string>
+
+    <string name="additional">Ссылки на источники</string>
+    <string name="error">Ошибка(</string>
+
+    <string name="url_wiki">https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BA%D1%80%D0%BE%D0%B2%D0%BE%D0%BB%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BF%D0%B5%D1%87%D1%8C</string>
+    <string name="wiki">Микроволновая печь. Вики</string>
+    <string name="url_katalog">https://www.ferra.ru/review/byt/curious-microwaves-facts.htm</string>
+    <string name="katalog">Каталог товаров</string>
+    <string name="url_home_tehno">https://kaspi.kz/shop/pavlodar/c/microwave%20ovens/</string>
+    <string name="home_tehno">Факты</string>
+    <string name="communicate">Обратная связь</string>
+    <string name="send_mail">Написать отзыв</string>
+
+    <string name="email">2001_stas@mail.ru</string>
+    <string name="subject">Предложения по программе</string>
+    <string name="textmail">Здравствуйте !</string>
+    <string name="sending_letter">Посылка письма автору</string>
+    <string name="no_installed_email_client">Нет установленного почтового клиента</string>
+
+    <string name="search_hint">Поиск</string>
+    <string name="of">из</string>
+    <string name="not_found">увы…</string>
+
+    <string name="mysearch">ВКЛ. ПОИСК</string>
+
+</resources>

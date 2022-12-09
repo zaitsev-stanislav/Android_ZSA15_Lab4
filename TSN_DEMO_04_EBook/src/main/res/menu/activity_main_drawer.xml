@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/lec01"
+            android:icon="@drawable/ic_menu_lecture"
+            android:title="@string/lec01" />
+        <item
+            android:id="@+id/lec02"
+            android:icon="@drawable/ic_menu_lecture"
+            android:title="@string/lec02" />
+    </group>
+
+    <item android:title="@string/bonus">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/modern"
+                    android:icon="@drawable/ic_view_list_black_24dp"
+                    android:title="@string/prog" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/additional">
+        <menu>
+            <item
+                android:id="@+id/nav_view1"
+                android:icon="@drawable/ic_import_contacts_black_24dp"
+                android:title="@string/wiki" />
+            <item
+                android:id="@+id/nav_view2"
+                android:icon="@drawable/ic_import_contacts_black_24dp"
+                android:title="@string/katalog" />
+            <item
+                android:id="@+id/nav_view3"
+                android:icon="@drawable/ic_import_contacts_black_24dp"
+                android:title="@string/home_tehno" />
+        </menu>
+    </item>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_drafts_black_24dp"
+                android:title="@string/send_mail" />
+        </menu>
+    </item>
+
+</menu>
